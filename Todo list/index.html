@@ -7,7 +7,16 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <form id="new_task_form">
+          <h1 id="h1">To DoList App</h1>
+  
+          <input type="text" id="new_task_title" placeholder="enter new task">
+          <button type="submit" id="add_btn" disabled>Add</button>
+          <ul id="list"> </ul>
+          
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
